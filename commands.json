@@ -1,0 +1,46 @@
+[
+    {
+        "name": "check",
+        "description": "Check if your password is compromised.",
+        "options": [
+            {
+                "type": "STRING",
+                "name": "password",
+                "description": "Your password to check.",
+                "required": true
+            }
+        ]
+    },
+    {
+        "name": "add",
+        "description": "Add your password on SafeMyPass system to be checked daily.",
+        "options": [
+            {
+                "type": "STRING",
+                "name": "password",
+                "description": "Your password to add.",
+                "required": true
+            }
+        ]
+    },
+    {
+        "name": "delete",
+        "description": "Check if your password is compromised.",
+        "options": [
+            {
+                "type": "STRING",
+                "name": "password",
+                "description": "Your password to check.",
+                "required": true
+            }
+        ]
+    },
+    {
+        "name": "list",
+        "description": "List all the passwords you have added."
+    },
+    {
+        "name": "begone",
+        "description": "Delete all your data in the database."
+    }
+]
